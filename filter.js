@@ -10,9 +10,13 @@ console.log(selected);
 const selects = number.find(n => n > 4)
 console.log(selects);
 
+const sum = number.reduce((p,c)=> p+c , 0)
+console.log(sum)
+
 /**
  * 1. map
  * 2. forEach
  * 3. filter
  * 4. find
+ * 5. reduce
  */
